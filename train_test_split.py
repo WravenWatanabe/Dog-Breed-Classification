@@ -40,6 +40,6 @@ print(Y.shape)
 X_train, X_test, y_train, y_test = train_test_split(
     X,
     y,
-    test_size = 0.25, # 25:75 training:testing ratio
+    test_size = 0.25, # 25:75 testing:training ratio
     random_state = NUM_CATEGORIES
 )
