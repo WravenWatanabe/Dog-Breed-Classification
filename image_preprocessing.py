@@ -37,8 +37,9 @@ def preprocessing(input_dirs, output_parent_dir, crop_size=(300, 300)):
                     np.save(output_path, vectorized_image)
 
 
+"""
 # Directory containing folders for different dog breeds
-input_parent_dir = r"C:\Users\sophi\Dog-Breed-Classification\images\Images"
+input_parent_dir = '/Users/Kaito.01/Desktop/Academics/DS 4400/Project/archive/images/Images'
 
 # List of input directories (folders for different dog breeds)
 input_dirs = [os.path.join(input_parent_dir, folder) for folder in os.listdir(input_parent_dir)]
@@ -48,3 +49,4 @@ output_parent_dir = "preprocessed_images"
 
 # Preprocess images
 preprocessing(input_dirs, output_parent_dir)
+"""
